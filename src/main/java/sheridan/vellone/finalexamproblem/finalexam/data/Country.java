@@ -21,7 +21,7 @@ public class Country implements Serializable {
     private String name = "";
 
     @NotBlank
-    @Pattern(regexp = "(Asia | Europe | Oceania | North America | Africa | Antarctica | South America)?")
+    @Pattern(regexp = "(Asia | Africa | Antarctica | Europe | North America | Oceania | South America)?")
     private String continent = "";
 
     @NotBlank
