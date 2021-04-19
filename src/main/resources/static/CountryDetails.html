@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+
+    <script src="js/details.js"></script>
+    <script src="js/footer.js"></script>
+
+    <title>Country Details</title>
+</head>
+<body>
+<header>
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Country Data</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h1 class="contacts-4">Country Details</h1>
+    </div>
+</header>
+
+<main role="main" class="container">
+    <div class="card">
+        <div class="card-header">
+            Country Record
+        </div>
+        <div class="card-body table-success">
+            <p>
+                <label class="output-label">Country Name:</label>
+                <span id="name" class="output">Mexico</span>
+            </p>
+            <p>
+                <label class="output-label">Continent:</label>
+                <span id="continent" class="output">North America</span>
+            </p>
+            <p>
+                <label class="output-label">Region:</label>
+                <span id="region" class="output">North America</span>
+            </p>
+            <p>
+                <label class="output-label">Surface Area:</label>
+                <span id="surface_area" class="output">123</span>
+            </p>
+            <p>
+                <label class="output-label">Population:</label>
+                <span id="population" class="output">123</span>
+            </p>
+
+        </div>
+        <div class="card-footer" style="background-color: lightgray">
+            <div>
+                <a class="btn btn-outline-dark" href="index.html" >
+                    <i class="material-icons">fact_check</i> List Contacts</a>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
